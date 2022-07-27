@@ -4,18 +4,25 @@ body {
     font-family: 'Bebas Neue', cursive;
 }
 
-.my-orange-light {
+header {
+    background-image: url("../images/bg-dot.png");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+.bg-orange-light {
     background-color: #FFF9F4;
 }
 
-.my-orange {
+.text-orange {
     color: #FA804C;
 }
 
-.my-black {
+.text-black {
     color: #363958;
 }
 
-.my-black-light {
+.bg-black-light {
     background-color: #F1F1F1;
 }
