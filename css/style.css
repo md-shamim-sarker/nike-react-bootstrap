@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
 
 body {
-    font-family: 'Bebas Neue', cursive;
+    font-family: 'Exo 2', sans-serif;
 }
 
 header {
@@ -25,4 +25,17 @@ header {
 
 .bg-black-light {
     background-color: #F1F1F1;
+}
+
+.left-side,
+.right-side {
+    width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+
+    .left-side,
+    .right-side {
+        width: 100%;
+    }
 }
